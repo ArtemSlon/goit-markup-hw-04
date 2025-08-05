@@ -87,6 +87,7 @@ align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-address {
@@ -106,6 +107,7 @@ display: flex;
         color: #434455;
         padding-top: 24px;
         padding-bottom: 24px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
        
 }
 
@@ -115,7 +117,9 @@ display: flex;
 }
 
 .header-link:focus,
-.header-link:hover,
+.header-link:hover {
+    color: #404bbf;
+}
 .header-contacts:hover,
 .header-contacts:focus {
 color: #404bbf;
