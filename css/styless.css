@@ -199,6 +199,10 @@ padding-bottom: 120px;
 
 }
 
+.secsection-container {
+    margin-bottom: 8px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -214,7 +218,6 @@ padding-bottom: 120px;
 /* ? */
 
 .second-section-list {
-    margin-bottom: 8px;
     display:flex;
     gap: 24px;
 }
