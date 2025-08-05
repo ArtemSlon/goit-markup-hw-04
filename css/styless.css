@@ -425,7 +425,11 @@ padding: 100px 0px;
 
 .footer-container {
 display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-logo-container {
+margin-right: 120px;
 }
 
 .footer-logo{
@@ -446,6 +450,15 @@ font-size: 16px;
     width: 264px;   
 }
 
+.footer-media-text {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
 .footer-media {
     width: 208px;
         height: 80px;
@@ -456,7 +469,6 @@ display: flex;
     justify-content: space-between;
     align-items: center;
     width: 208px;
-    margin-top: 16px;
 }
 
 .footer-social-media {
