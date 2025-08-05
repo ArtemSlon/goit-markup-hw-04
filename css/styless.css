@@ -143,13 +143,14 @@ bottom: 0;
 
 
 .first-section {
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7)),url(../images/people-office-background.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
 }
 
 .title {
@@ -178,8 +179,7 @@ margin: 0 auto;
 display: block;
 border: none;
 cursor: pointer;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 
 }
 
